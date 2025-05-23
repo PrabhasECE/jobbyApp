@@ -1,0 +1,60 @@
+.link-item{
+    text-decoration: none;
+    /*margin-bottom: 48px;
+    width: 350px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    margin-right: 20px;*/
+}
+
+.details{
+    background-color: #202020;
+    padding: 20px;
+    color: #ffffff;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.company-logo{
+    width: 70px;
+    height: 70px;
+}
+
+.company{
+    display: flex;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 0 0 14px;
+}
+
+.location{
+    margin: 10px 0;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    border-bottom: 2px solid #b6c5ff;
+    padding: 10px 0;
+    align-items: center;
+}
+
+.ico{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.employment{
+    margin-left: 20px;
+}
+
+.package{
+    margin-left: auto;
+}
+
+.heading{
+    margin: 5px 0;
+}

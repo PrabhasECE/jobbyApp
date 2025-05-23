@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nokku{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.navbar{
+    display: flex;
+    background-color: #202020;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+
+.logo{
+    width: 90px;
+}
+
+.menu{
+    list-style-type: none;
+    display: flex;
+}
+
+.menu-item{
+    margin-right: 20px;
+}
+
+
+
+.button{
+    background-color:#4f46e5;
+    color: white;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 7px;
+}

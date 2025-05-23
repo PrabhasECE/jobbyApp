@@ -1,0 +1,29 @@
+.job-container{
+    background-color: #202020;
+    padding: 30px 20px;
+    border-radius: 10px;
+    width: 360px;
+    margin: 20px 0;
+}
+
+.company-logo{
+    width: 70px;
+    height: 70px;
+}
+
+.company{
+    display: flex;
+}
+
+
+
+.ico{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.headi{
+    margin: 20px 0;
+}
+

@@ -1,0 +1,37 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.main-container{
+    background-image: url("https://assets.ccbp.in/frontend/react-js/home-sm-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    padding: 40px 0;
+    flex: 1;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px 30px;
+    justify-content: center;
+}
+
+.content *{
+    margin-bottom: 25px;
+}/* apply margin-bottom for all elements of classname .content */
+
+
+
+.button{
+    background-color:#4f46e5;
+    color: white;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 7px;
+}
