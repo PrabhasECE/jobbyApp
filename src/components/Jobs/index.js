@@ -301,8 +301,7 @@ class Jobs extends Component{
                         <div className="searching-container">
                             <input type="search" className="searchs" placeholder="Search" id="search" onChange={this.searchInput} />
                             <button type="button" data-testid="searchButton" className="searches-button" onClick={this.getJobsDetails}>
-                                {/*<BsSearch className="search-icon" /> */}
-                                Click
+                                Search
                             </button>
                         </div>
                         {this.renderJobsContainer()}
